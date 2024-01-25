@@ -1,5 +1,5 @@
-use day_2::{input::INPUT, sum_of_winning_games};
+use day_2::{get_power_of_cube_set, input::INPUT};
 
 fn main() {
-    println!("{}", INPUT.lines().map(sum_of_winning_games).sum::<u32>());
+    println!("{}", INPUT.lines().map(get_power_of_cube_set).sum::<u32>());
 }
